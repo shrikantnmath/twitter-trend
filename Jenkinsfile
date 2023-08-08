@@ -19,3 +19,6 @@ environment {
                 git branch: 'main', url: 'https://github.com/shrikantnmath/twitter-trend.git'
             }
         }
+
+    }
+}
