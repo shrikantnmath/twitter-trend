@@ -48,8 +48,5 @@ stage('SONARQUBE ANALYSIS') {
             
       }
 
-   
-
-	}
-	
+   }
 }
