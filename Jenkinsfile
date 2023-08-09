@@ -28,5 +28,14 @@ stage("BUILD"){
             }
         }
 
-    }
+stage("UNIT TEST"){
+            steps{
+                echo "----------- unit test started ----------"
+                sh 'mvn surefire-report:report'
+                 echo "----------- unit test Complted ----------"
+            }
+        }
+    
+	}
+	
 }
